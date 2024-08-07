@@ -1,0 +1,8 @@
+import math
+n=6 
+sqrtroot=math. Sqrt (n)
+square=n**2
+cube=n**3
+print (“the square root is:”, sqrtroot)
+print (“the cube is:”,cube)
+print (“the square is:’,square)
