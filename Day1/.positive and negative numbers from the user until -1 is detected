@@ -1,0 +1,9 @@
+Sum=0
+While true:
+       a=int(input(“enter a number:”))
+       if a==-1:
+           break
+           sum=sum+a
+           avg=sum/2
+           print(sum)
+           print(avg)
