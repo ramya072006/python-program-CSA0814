@@ -1,0 +1,6 @@
+decimal=20
+binary=format(decimal,"b")
+print(binary)
+binary="10100"
+decimal=int(binary,2)
+Print(decimal)
