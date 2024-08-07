@@ -1,0 +1,7 @@
+import numpy
+arr=numpy.array([1,5,4,8,3,7])
+max_element=numpy.max(arr)
+min_element=numpy.min(arr)
+print("max element: ",max_element)
+print("min element: ",min_element)
+
