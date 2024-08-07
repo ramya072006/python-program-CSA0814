@@ -1,0 +1,5 @@
+mylist=[21,5,8,52,21,87,52]
+item=36
+index=4
+mylist.insert(index,item)
+print(mylist)
