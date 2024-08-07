@@ -1,0 +1,5 @@
+def si(p,r=4,n=1):
+      si=(p*r*n)/100
+      return si
+P=1000
+Print("the simple interest is:",si(p,r=4,n=1)
