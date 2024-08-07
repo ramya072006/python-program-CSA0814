@@ -1,0 +1,5 @@
+from datetime import datetime
+date_input=’2024-08-15’
+date=datetime.strptime(date_input, ‘%y-%m-%d’)
+day=date.strftime(‘%A’)
+print (f” the day is: {day}”)
