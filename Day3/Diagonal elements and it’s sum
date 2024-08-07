@@ -1,0 +1,6 @@
+import numpy as no
+a=[[1,2,3],[4,5,6],[7,8,9]]
+b=np.asarray(a)
+Print("diagonal(sum):',np.trace(b))
+Print("diagonal(elements):',np.diagonal(b))
+ 
