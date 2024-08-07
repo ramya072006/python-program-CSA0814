@@ -1,0 +1,10 @@
+from datetime import datetime, timedelta
+def get-fisrt_Monday_of_next_month(date_input):
+date= datetime. Strptime(date_input,’%y-%m-%d)
+first_of_next_month= (date.replace(days=28)+timedelta(days=4).replace(day=1)
+days_to_Monday= (7_first_of_next_month.  Weekends()+0)%7
+first-Monday=fisrt_of_next_month+timedelta(days=days_to_Monday)
+return first Monday
+date_input= “2024-01-27”
+first_monday= get_first_monday_of_next_month(date-input)
+print (f”the first_monday of the next month is: (first_monday strftime(“%y-%m-%d”)}”)
