@@ -1,0 +1,10 @@
+m=1
+n=15
+print (“prime numbers between”,n,”and”,m,”are”)
+for num in range (m, n+1):
+if num >1:
+for I in range (2, num):
+if (num%i) ==0:
+break
+else:
+print (num, end=” “)
