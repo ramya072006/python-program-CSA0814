@@ -1,0 +1,8 @@
+from statistics import mean, median, mode
+elements= [1, 2, 3, 4, 4, 5, 6, 6, 6, 7, 8, 9]
+mean_value=mean(elements)
+print (f”mean: {mean_value}”)
+median_value= median(elements)
+print (f”median: {median_value}”)
+mode_value= mode (elements)
+print (f’mode: {mode_value}”)
