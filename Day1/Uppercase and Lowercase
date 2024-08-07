@@ -1,0 +1,10 @@
+name=”ravi is sleeping”
+print(name. upper())
+print(name. lower())
+print(len(“ravi is sleeping”.split())
+words=name.split(“”)
+count=0
+for i in words:
+if list(i)[0].lower()==”s”:
+count+=i
+print(count)
