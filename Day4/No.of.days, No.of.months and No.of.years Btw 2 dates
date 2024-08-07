@@ -1,0 +1,9 @@
+from datetime import datetime
+from date util import relative delta
+d1=27/07/2024
+d2=10/12/2026
+start_date= datetime. Strptime(d1,”%d%m%y”)
+end_date= datetime. Strptime(d2,”%d%m%y”)
+delta= relative delta. relative delta (end_date, start_date)
+print (‘years, month, days between two dates is’)
+print (delta.years, ‘,years’, delta.months,’months,’,delta.days,’days’)
