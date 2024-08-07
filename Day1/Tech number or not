@@ -1,0 +1,11 @@
+num=3025
+first_half=int(num/100)
+print (first_half)
+second_half=num%100
+print(second_half)
+product=(first_half=seconf_half)*(first_half+second_half)
+if (product==num)
+print (“The number is tech number: ”,+str(num))
+else:
+print (“The number is not tech number: “ ,+str(num))
+
