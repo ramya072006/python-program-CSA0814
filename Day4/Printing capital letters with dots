@@ -1,0 +1,5 @@
+sentence= “Mountain hill station”
+words= sentence.split()
+capitalized_words= [word. Capitalized () for word in words]
+first_letters= ‘.’. join (word [0] for in word in capitalized_words]) +’.’
+print(first_letters)
