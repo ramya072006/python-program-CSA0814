@@ -1,0 +1,4 @@
+list_val=[20,30,40,25,10]
+list_val.sort()
+Print("the first largest is: ",list_val[-1])
+Print("the second largest is:",list_val[-2])
