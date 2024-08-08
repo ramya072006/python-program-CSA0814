@@ -5,16 +5,3 @@ def sum_of_digits_until_single_digit(number):
 number = 2024
 result = sum_of_digits_until_single_digit(number)
 print(f"The sum of digits until it becomes a single digit is {result}.")
-
-def print_hollow_pyramid(rows):
-    for i in range(1, rows + 1):
-        for j in range(rows - i):
-            print(" ", end="")
-        for k in range(2 * i - 1):
-            if k == 0 or k == 2 * i - 2 or i == rows:
-                print("*", end="")
-            else:
-                print(" ", end="")
-        print() 
-rows = 4
-print_hollow_pyramid(rows)
