@@ -1,0 +1,17 @@
+def generate_fibonacci(n):
+    fibonacci = [0, 1]
+    for i in range(2, n):
+        next_fib = fibonacci[-1] + fibonacci[-2]
+        fibonacci.append(next_fib)
+    return fibonacci
+def print_fibonacci_triangle(rows):
+    n = rows * (rows + 1) // 2  
+    fibonacci = generate_fibonacci(n)
+    index = 0
+    for i in range(1, rows + 1):
+        for j in range(i):
+            print(fibonacci[index], end=" ")
+            index += 1
+        print()
+rows = 4
+print_fibonacci_triangle(rows)
