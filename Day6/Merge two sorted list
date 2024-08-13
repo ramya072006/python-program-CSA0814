@@ -1,0 +1,5 @@
+l1 = [1, 23, 4, 7]
+l2 = [0, 2, 5, 6, 8, 9]
+l1.extend(l2)
+sorted(l1)
+print(sorted(l1))
