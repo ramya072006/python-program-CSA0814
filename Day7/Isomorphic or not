@@ -1,0 +1,5 @@
+def are_isomorphic(s1, s2):
+    return len(s1)==len(s2) and len(set(zip(s1, s2)))==len(set(s1))==len(set(s2))
+s1="foo"
+s2="bar"
+print(are_isomorphic(s1,s2))
