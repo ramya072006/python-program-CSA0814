@@ -1,0 +1,12 @@
+alphabets = 'abcdefghijklmnopqrstuvwxyz'
+list_1 = ['fjsir']
+list_2 = [3]
+final_list = []
+for index,original_word in enumerate(list_1):
+    new_word = ''
+    for letter in original_word:
+        if letter in alphabets:
+            index_val = alphabets.index(letter) - list_2[index]
+            new_word += alphabets[index_val]
+    final_list.append(new_word)
+print(final_list)
