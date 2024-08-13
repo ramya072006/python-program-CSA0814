@@ -1,0 +1,5 @@
+from itertools import groupby
+test_list = ['eat', 'tan', 'ate', 'nat', 'bat', 'tea']
+temp = lambda test_list: sorted(test_list)
+res = [list(val) for key, val in groupby(sorted(test_list, key = temp), temp)]
+print("The grouped Anagrams : " + str(res))
