@@ -1,0 +1,20 @@
+def process_string(input_string):
+    uppercase = []
+    lowercase = []
+    digits = []
+
+    for char in input_string:
+        if char == '*':
+            break
+        if char.isupper():
+            uppercase.append(char)
+        elif char.islower():
+            lowercase.append(char)
+        elif char.isdigit():
+            digits.append(char)
+
+    print("Uppercase letters:", "".join(uppercase))
+    print("Lowercase letters:", "".join(lowercase))
+    print("Digits:", "".join(digits))
+input_string = "Ab3C*d2E4"
+process_string(input_string)
