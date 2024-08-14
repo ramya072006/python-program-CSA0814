@@ -1,0 +1,9 @@
+def find_needle_in_haystack(needle, haystack):
+    index = haystack.find(needle)
+    if index == -1:
+        return [-1]
+    return index
+needle = "test"
+haystack = "this is a test string"
+result = find_needle_in_haystack(needle, haystack)
+print(result)
