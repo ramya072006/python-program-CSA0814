@@ -1,0 +1,4 @@
+def is_geometric_progression(seq):
+    return len(seq) < 2 or all(seq[i] * seq[0] == seq[i-1] * seq[1] for i in range(2, len(seq)))
+sequence = [2, 6, 18, 54]
+print(is_geometric_progression(sequence))
