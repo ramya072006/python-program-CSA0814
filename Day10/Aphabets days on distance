@@ -1,0 +1,7 @@
+s = input("Enter the string: ")
+fre = {}
+for char in s:
+    fre[char] = fre.get(char, 0) + 1
+
+res = ''.join(chr((ord(c) - ord('a') + fre[c]) % 26 + ord('a')) if c.isalpha() else c for c in s)
+print("Transformation:", res)
