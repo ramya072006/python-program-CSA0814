@@ -1,0 +1,4 @@
+def is_additive_sequence(seq):
+    return all(seq[i] == seq[i-1] + seq[i-2] for i in range(2, len(seq)))
+sequence = [1, 2, 3, 5, 8, 13]
+print(is_additive_sequence(sequence))
