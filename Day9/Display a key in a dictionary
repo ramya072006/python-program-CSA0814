@@ -1,0 +1,6 @@
+from itertools import product
+def letter_combinations(d):
+    for combo in product(*d.values()):
+        print(''.join(combo))
+d = {'1': 'AB', '2': 'CD'}
+letter_combinations(d)
