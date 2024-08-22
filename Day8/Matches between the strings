@@ -1,0 +1,6 @@
+def count_matches(s1, s2):
+    return sum(1 for a, b in zip(s1, s2) if a == b)
+s1 = "hello"
+s2 = "hxllo"
+matches = count_matches(s1, s2)
+print(matches)  # Output: 4
