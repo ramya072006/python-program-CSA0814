@@ -1,0 +1,5 @@
+sentence="she is a brave girl"
+widht=50
+words=sentence.split()
+justified_text=''.join(words).center(width)
+print(justified_text)
