@@ -1,0 +1,10 @@
+liste=[10,20,30,40,50]
+listl=[5,10,20,30,10]
+t=5
+currents=0
+for i in range(t):
+    currents+=liste[i]
+ currents-=listl[i]
+    total+=currents
+ avg=total/t
+print(avg)
