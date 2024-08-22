@@ -1,0 +1,7 @@
+import numpy as np
+start='2020-07-01'
+end='2024-08-01'
+weekd=np.busday_count(start, end)
+firstmo=np.busday_offset(start,0,roll='forward',weekmask='Mon')
+print(firstmo)
+print(weekd)
